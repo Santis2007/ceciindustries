@@ -1,0 +1,113 @@
+.titlediv {
+    color: red;
+    border-style: dashed;
+    background-color: BurlyWood;
+    padding: -1em;
+    font-size: 30px;
+}
+
+body {
+    background-color: Blue;
+}
+
+.circleface {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border-style: solid;
+    padding: 1em;
+    position: relative;
+    animation: yey 1s infinite;
+}
+
+.eye {
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    border-style: solid;
+    background-color: black;
+    position: absolute;
+    right: 10px;
+}
+
+.eyes {
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    border-style: solid;
+    background-color: black;
+    position: absolute;
+}
+
+.mouth {
+    width: 50px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    bottom: 20px;
+    border-radius: 0 0 20px 20px;
+}
+
+.mouth_smile {
+    width: 10px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    bottom: 20px;
+}
+
+.mouth_smile1 {
+    width: 10px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+.padding {
+    padding: 1em;
+}
+
+.h2div {
+    padding: 1em;
+    color: white;
+}
+
+a {
+    color: black;
+}
+
+p {
+    color: white;
+}
+
+.go {
+    color: white;
+    padding: 1em;
+    background-color: Darkblue;
+}
+
+@keyframes yey {
+  0% {
+    background-color: red;border: solid 1em black;
+  }
+  17% {
+    background-color: orange;border: solid 1.0em white;
+  }
+  34% {
+    background-color: yellow;border: solid 1em black;
+  }
+  51% {
+    background-color: green;border: solid 1.0em white;
+  }
+  68% {
+    background-color: blue;border: solid 1em black;
+  }
+  84% {
+    background-color: purple; border: solid 1.0em white;
+  }
+  100% {
+    background-color: red;border: solid 1em black;
+  }
+}.foot{color: #59ff2b;}
